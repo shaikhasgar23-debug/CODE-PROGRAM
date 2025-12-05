@@ -1,0 +1,32 @@
+Static Members
+
+class Student {
+    static int count = 0;
+    Student() { count++; }
+}
+
+class MathUtils {
+    static int square(int x) {
+        return x * x;
+    }
+}
+
+class Demo {
+    static int data;
+    static {
+        data = 100;
+        System.out.println("Static block: data set to " + data);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        new Student();
+        new Student();
+        System.out.println(Student.count);
+        int s = MathUtils.square(5);
+        System.out.println("s = " + s);
+        // To trigger static block
+        int d = Demo.data;
+    }
+}
