@@ -1,0 +1,30 @@
+Transport Exercise
+public class TransportExample {
+    public static void main(String[] args) {
+        Bus bus = new Bus();
+        bus.move();
+        bus.carryPassengers();
+        System.out.println();
+        Truck truck = new Truck();
+        truck.move();
+        truck.carryGoods();
+    }
+}
+
+class Transport {
+    void move() {
+        System.out.println("Transport is moving");
+    }
+}
+
+class Bus extends Transport {
+    void carryPassengers() {
+        System.out.println("Bus is carrying passengers");
+    }
+}
+
+class Truck extends Transport {
+    void carryGoods() {
+        System.out.println("Truck is carrying goods");
+    }
+}
