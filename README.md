@@ -72,3 +72,6 @@ Input:
 Enter your name: A5bRohit
 Output:
 Error: The first three characters are not numeric.
+
+code 5
+Sum: 15
