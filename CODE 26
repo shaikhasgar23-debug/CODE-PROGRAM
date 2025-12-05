@@ -1,0 +1,27 @@
+JUMP STATEMENTS
+ (a) break
+  public class BreakDemo {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                break; // exits loop when i equals 5
+            }
+            System.out.println("i = " + i);
+        }
+    }
+}
+(b) continue
+  public class ContinueDemo {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {
+                continue; // skips iteration when i equals 3
+            }
+            System.out.println("i = " + i);
+        }
+    }
+}
+(c) return
+ public class ReturnDemo {
+    public static void main(String[] args) {
+        System.out.println("Before return");
