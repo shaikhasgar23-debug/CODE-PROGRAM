@@ -34,3 +34,22 @@ Input:
 Enter the size of the array: 0
 Output:
 Array of size 0 created successfully.
+
+CODE 3 OUTPUT 
+
+Input:
+Enter your name: 123Ravi
+Output:
+Converted number: 123
+Input:
+Enter your name: Jo
+Output:
+Error: The name must have at least 3 characters.
+Input:
+Enter your name: Ram
+Output:
+Error: The first three characters are not digits, cannot convert to integer.
+Input:
+Enter your name: A1Bkaran
+Output:
+Error: The first three characters are not digits, cannot convert to integer.
