@@ -53,3 +53,22 @@ Input:
 Enter your name: A1Bkaran
 Output:
 Error: The first three characters are not digits, cannot convert to integer.
+
+CODE 4 OUTPUT
+
+Input:
+Enter your name: 987Arun
+Output:
+Converted integer: 987
+Input:
+Enter your name: Al
+Output:
+Error: Name must contain at least 3 characters.
+Input:
+Enter your name: Sam
+Output:
+Error: The first three characters are not numeric.
+Input:
+Enter your name: A5bRohit
+Output:
+Error: The first three characters are not numeric.
