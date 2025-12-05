@@ -1,0 +1,10 @@
+BOOLEAN LOGICAL OPERATORS
+ public class BooleanLogicalOperators {
+    public static void main(String[] args) {
+        boolean p = true, q = false;  // Added space after "boolean"
+        System.out.println("p && q = " + (p && q)); // Logical AND
+        System.out.println("p || q = " + (p || q)); // Logical OR
+        System.out.println("!p = " + (!p));         // Logical NOT
+    }
+}
+
